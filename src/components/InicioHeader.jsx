@@ -44,7 +44,7 @@ const InicioHeader =  () => {
         <HEADER className="Header-search">
             <img src="https://res.cloudinary.com/dtkirmtfq/image/upload/v1631331639/logo-blockBuster_mdnchr.png" alt="Logo" srcset="" />
             <label className="Seccion">Todas</label>
-            <Link className="Seccion" to="./Crud" >Crud Peliculas</Link>
+            <Link className="Seccion" to="./crudPeliculas" >Crud Peliculas</Link>
             <label className="Seccion">Menos Valoradas</label>
 
             <div className="search_wrap search_wrap_3">

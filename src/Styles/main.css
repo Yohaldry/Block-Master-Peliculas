@@ -194,3 +194,8 @@ body{
   border-radius: 30px;
   width: 70px;
 }
+
+.fijo{
+
+position: fixed;
+}

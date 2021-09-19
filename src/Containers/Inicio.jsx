@@ -5,8 +5,7 @@ import InicioHeader from '../Components/InicioHeader'
 const Inicio = () => {
     return ( 
 <Fragment>
-        <InicioHeader />
-        
+        <InicioHeader />      
 </Fragment>
      );
 }

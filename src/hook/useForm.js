@@ -3,7 +3,7 @@ import { useState } from 'react';
 export const useForm = ( initialState = {} ) => {
     
     const [formValue, setValues] = useState(initialState);
-    
+    console.log(formValue)
     const reset = () => {
         setValues( initialState );
     }

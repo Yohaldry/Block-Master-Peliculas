@@ -1,7 +1,6 @@
 import axios from 'axios'
 import { isEmpty } from 'lodash'
-import React, {useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, {useState, Fragment } from 'react'
 import shortid from 'shortid'
 import { useForm } from '../hook/useForm'
 
@@ -34,12 +33,15 @@ const urlData = 'https://peliculas2021.herokuapp.com/peliculas'
             poster,
             puntos,
             descripcion,
-            trailer,
+            trailer
+            
         }
 
         if (isEmpty(name) || isEmpty(poster) || isEmpty(puntos) || isEmpty(descripcion) || isEmpty(trailer)) {
             setErrorForm(true);
             return
+
+            
         }
 
         setErrorForm(false);
@@ -48,15 +50,17 @@ const urlData = 'https://peliculas2021.herokuapp.com/peliculas'
         try {
             const resultado = await axios.post(urlData, newTask)
             guardarRecargarProductos(true)
+            console.log(resultado)
         } catch (error) {
             console.log(error);
         }
+        
     
     }
 
     return ( 
 
-        <div className="col-4">
+        <Fragment>
                     <h3 className="text-primary text-center"> Agregar Peliculas </h3>
                     {
                         errorForm &&
@@ -65,9 +69,10 @@ const urlData = 'https://peliculas2021.herokuapp.com/peliculas'
                         </div>
 
                     }
-                    <form className="form-group" onSubmit={handleSubmit}>
+                    <form className="form-group fijo col-4" onSubmit={handleSubmit}>
                         <input
                             type="text"
+                            autoComplete="off"
                             className="form-control text-success  bg-dark"
                             placeholder="Poster Url"
                             name="poster"
@@ -124,8 +129,8 @@ const urlData = 'https://peliculas2021.herokuapp.com/peliculas'
                             </button>
                         </div>
                         </form>
-             </div>
-
+             
+                        </Fragment>
 
      );
 }

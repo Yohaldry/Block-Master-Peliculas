@@ -5,7 +5,8 @@ import Login from '../components/Login';
 import Registro from '../components/Registro'
 import Inicio from '../components/InicioHeader'
 import InfoPeliculas from '../components/InfoPeliculas'
-import AppRouter from './AppRouter';
+// import AppRouter from './AppRouter';
+import { Crud } from '../Containers/Crud';
 
 function About() {
     return ( 
@@ -17,7 +18,7 @@ function About() {
                      <Route exact path="/Pelicula/:id">
                          <InfoPeliculas />
                          </Route>
-                         <Route exact path="/Crud" component={AppRouter} />
+                         <Route exact path="/crudPeliculas" component={Crud} />
                  </BrowserRouter>
 
      );
