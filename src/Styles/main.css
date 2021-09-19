@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body{
+
+  background-color: #0C0E16;
+}
+.form-signin {
+    width: 80%;
+    max-width: 330px;
+    padding: 10px;
+    margin: auto;
+  }
+  
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 1;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .google-btn {
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+    height: 42px;
+    background-color: blue;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow .3s ease;
+}
+
+.google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+}
+
+.btn-text {
+    float: right;
+    margin: 11px 40px 0 0;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+
+.nothing__main-content {
+  align-items: center;
+  background-color: #5C62C5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+
+ 
+}
+
+.nothing__main-content p {
+  text-align: center;
+}
+
+.App-logo{
+    width: 100px;
+    height: 100px;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    }
+
+    .BotonIniciar{
+
+      @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+      font-family: 'Architects Daughter', cursive;
+
+     background-color: #ffffff;
+     border: 4px solid #08a000;
+     width: 200px;
+     border-radius: 10px;
+    }
+/* --------------------Search--------------------- */
+
+.search_wrap{
+
+  width: 350px;
+  height: 32px;
+  background-color: #FED941;
+  border-radius: 5px;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.search_box{
+
+  border: 2px solid #FED941;
+  width: 300px;
+  height: 32px;
+}
+
+.Header-search{
+
+  display: flex;
+  background-color: #0C0E16;
+  color: white;
+  padding: 10px;
+  padding-left: 70px;
+}
+
+.Seccion{
+
+  font-family: 'Inter', sans-serif;
+  padding-top: 15px;
+  padding-left: 70px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.Seccion:hover{
+
+  color: #FED941;
+  text-decoration: underline;
+  font-family: 'Architects Daughter', cursive;
+}
+
+
+.card-img-top:hover{
+
+  border: 9px solid #FED941;
+  border-radius: 30px;
+  transition: 0.5s;
+  transform: translate(360s);
+
+}
+
+#Trailer{
+
+  margin-left: 300px;
+  margin-top: 120px;
+  border: 13px solid #000000;
+}
+
+.Editar{
+
+  color: white;
+  
+}
+
+
+
+.agregar{
+
+
+  color: white;
+  border-radius: 30px;
+  width: 300px;
+}
+
+.Detalle{
+
+
+  color: white;
+  border-radius: 30px;
+  width: 70px;
+}

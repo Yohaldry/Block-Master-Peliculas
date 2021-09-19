@@ -1,0 +1,147 @@
+
+[
+   {
+      "id": 1,
+      "name": "Jurassic Hunt",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/CGJAj5kNWQZypNgUSTTQrFlnG.jpg",
+      "descripcion": "La aventurera Parker se une a un grupo de cazadores de trofeos masculinos en un parque remoto y salvaje. Su objetivo: masacrar dinosaurios genéticamente recreados por deporte usando rifles, flechas y granadas. Después de que las aves rapaces matan a su guía, el equipo intenta escapar del parque, pero los cazadores rápidamente se convierten en los cazados. Peor aún, el gerente del parque sospecha que Parker es un espía y envía un escuadrón de asalto tras ella. ¡Esta batalla está a punto de volverse primitiva!",
+      "puntos": "4.6",
+      "trailer": "https://www.youtube.com/watch?v=H9gpZqn-TtU&t=1s" 
+   },
+   {   
+      "id": 2,
+      "name": "Jungle Cruise",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
+      "descripcion": "La Dra. Lily Houghton solicita la ayuda del bromista capitán Frank Wolff para llevarla por el Amazonas en su ruinoso barco. Juntos, buscan un árbol antiguo que tenga el poder de curar, un descubrimiento que cambiará el futuro de la medicina.",
+      "puntos": "7.9",
+      "trailer": "https://www.youtube.com/watch?v=hIJUnZnvAzA"     
+   },
+   {
+    "id": 3,
+    "name": "Space Jam: A New Legacy",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ff56Ie8jn5yvaWPaKQ7t05mIvc9.jpg",
+    "descripcion": "Cuando LeBron y su pequeño hijo Dom quedan atrapados en un espacio digital por una IA deshonesta, LeBron debe llevarlos a casa a salvo guiando a Bugs, Lola Bunny y a toda la pandilla de Looney Tunes notoriamente indisciplinados a la victoria sobre los campeones digitalizados de la IA en la cancha. Son Tunes versus Goons en el desafío más importante de su vida.",
+    "puntos": "7.4",
+    "trailer": "https://www.youtube.com/watch?v=olXYZOsXw_o"   
+   },
+   {
+    "id": 4,
+    "name": "Viuda negra",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
+    "descripcion": "Natasha Romanoff, también conocida como Black Widow, se enfrenta a las partes más oscuras de su libro mayor cuando surge una peligrosa conspiración vinculada a su pasado. Perseguida por una fuerza que no se detendrá ante nada para derribarla, Natasha debe lidiar con su historia como espía y las relaciones rotas que dejaron a su paso mucho antes de convertirse en Vengadora.",
+    "puntos": "7.8",
+    "trailer": "https://www.youtube.com/watch?v=xY1eqVSSuus"     
+   },
+   {
+    "id": 5,
+    "name": "PAW Patrol: La película",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg",
+    "descripcion": "Ryder y los cachorros son llamados a Adventure City para evitar que el alcalde Humdinger convierta la bulliciosa metrópolis en un estado de caos.",
+    "puntos": "8.0",
+    "trailer": "https://www.youtube.com/watch?v=gKEhPC5JIdc"     
+   },
+   {
+    "id": 6,
+    "name": "Luca",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
+    "descripcion": "Luca y su mejor amigo Alberto viven un verano inolvidable en la Riviera italiana. Pero toda la diversión está amenazada por un secreto profundamente guardado: son monstruos marinos de otro mundo justo debajo de la superficie del agua.",
+    "puntos": "8.1",
+    "trailer": "https://www.youtube.com/watch?v=EJk_Z-OasXc"     
+   },
+   {
+    "id": 7,
+    "name": "Free Guy",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yc2IfL701hGkNHRgzmF4C6VKO14.jpg",
+    "descripcion": "Un cajero de banco llamado Guy se da cuenta de que es un personaje secundario en un videojuego de mundo abierto llamado Free City que pronto se desconectará.",
+    "puntos": "7.8",
+    "trailer": "https://www.youtube.com/watch?v=cttnRmcr_ME"
+   },
+   {
+    "id": 8,
+    "name": "F9",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
+    "descripcion": "Dominic Toretto y su tripulación luchan contra el asesino más hábil y el conductor de alto rendimiento que jamás hayan conocido: su hermano abandonado.",
+    "puntos": "7.5",
+    "trailer": "https://www.youtube.com/watch?v=aSiDu3Ywi8E"
+   },
+   {
+    "id": 9,
+    "name": "El bebé jefe: negocio familiar",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kv2Qk9MKFFQo4WQPaYta599HkJP.jpg",
+    "descripcion": "Los hermanos Templeton, Tim y su hermano pequeño Boss Baby, Ted, se han convertido en adultos y se han alejado el uno del otro. Pero un nuevo bebé jefe con un enfoque de vanguardia y una actitud positiva está a punto de unirlos de nuevo ... e inspirar un nuevo negocio familiar.",
+    "puntos": "7.8",
+    "trailer": "https://www.youtube.com/watch?v=rLeDzAixQwY"
+   },
+   {
+    "id": 10,
+    "name": "Cruella",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wToO8opxkGwKgSfJ1JK8tGvkG6U.jpg",
+    "descripcion": "En la década de 1970 en Londres, en medio de la revolución del punk rock, una joven estafadora llamada Estella está decidida a hacerse un nombre con sus diseños. Se hace amiga de un par de jóvenes ladrones que aprecian su apetito por las travesuras, y juntos pueden construir una vida para ellos mismos en las calles de Londres.",
+    "puntos": "8.3",
+    "trailer": "https://www.youtube.com/watch?v=jpZrVxvG3mk"
+   },
+   {
+    "id": 11,
+    "name": "Huevos Run",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wrlQnKHLCBheXMNWotyr5cVDqNM.jpg",
+    "descripcion": "Un gallo y su compañero de aves se embarcan en un peligroso viaje al Congo para recuperar los huevos robados de un grupo de matones rusos.",
+    "puntos": "8.3",
+    "trailer": "https://www.youtube.com/watch?v=82Sc7KJikX4"
+   },
+   {
+    "id": 12,
+    "name": "Amigos de vacaciones",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uTgZuqUQbaCB6Wfk03N8IUEuzQf.jpg",
+    "descripcion": "Cuando una pareja heterosexual que se divierte con una pareja alborotadora de vacaciones en México regresa a los Estados Unidos, descubren que la pareja loca que conocieron en México los siguió de regreso a casa y deciden jugarles una broma.",
+    "puntos": "7.5",
+    "trailer": "https://www.youtube.com/watch?v=Yqp8AvaT-3w"
+   },
+   {
+    "id": 13,
+    "name": "Rehén pícaro",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1ho7YYp1DvCke9I1D3Olbh2Px63.jpg",
+    "descripcion": "Un ex infante de marina corre contra el tiempo para salvar a un grupo de rehenes, incluida su pequeña hija y un congresista, cuando militantes armados se apoderan de la tienda de su padrastro.",
+    "puntos": "6.7",
+    "trailer": "https://www.youtube.com/watch?v=sv-EkV3TuWM"
+   },
+   {
+    "id": 14,
+    "name": "Infinito",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
+    "descripcion": "Evan McCauley tiene habilidades que nunca aprendió y recuerdos de lugares que nunca ha visitado. Automedicado y al borde de un colapso mental, un grupo secreto que se hace llamar Infinitos acuden a su rescate, revelando que sus recuerdos son reales.",
+    "puntos": "7.4",
+    "trailer": "https://www.youtube.com/watch?v=UKFjeglbNDg"
+   },
+   {
+    "id": 15,
+    "name": "Cenicienta",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/clDFqATL4zcE7LzUwkrVj3zHvk7.jpg",
+    "descripcion": "Cenicienta, una niña huérfana con una madrastra malvada, tiene grandes sueños y con la ayuda de su Fabulosa Madrina, persevera para hacerlos realidad.",
+    "puntos": "6.9",
+    "trailer": "https://www.youtube.com/watch?v=T1NeHRuPpoM"
+   },
+   {
+    "id": 16,
+    "name": "Sacudida",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gYZAHan5CHPFXORpQMvOjCTug4E.jpg",
+    "descripcion": "Lindy es una mujer de lengua ácida con problemas de ira que controla su temperamento golpeándose con un chaleco de electrodos. Un día, ella establece una conexión con Justin, quien le da un rayo de esperanza para un futuro libre de conmociones, pero cuando él es asesinado, se lanza a un alboroto impulsado por la venganza en busca de su asesino.",
+    "puntos": "6.8",
+    "trailer": "https://www.youtube.com/watch?v=3BSSoD73TSk"
+   },
+   {
+    "id": 17,
+    "name": "Mortal Kombat",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg",
+    "descripcion": "El desgastado luchador de MMA Cole Young, inconsciente de su herencia y perseguido por el mejor guerrero del emperador Shang Tsung, Sub-Zero, busca y entrena con los mayores campeones de la Tierra mientras se prepara para enfrentarse a los enemigos de Outworld en una batalla de alto riesgo por el universo.",
+    "puntos": "7.4",
+    "trailer": "https://www.youtube.com/watch?v=Y2O4RCdwCGM"
+   },
+   {
+    "id": 18,
+    "name": "Rey Ricardo",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qQl0QS5P15vVzUcaP8rAqxbQ6Wp.jpg",
+    "descripcion": "Richard Williams se desempeña como entrenador de sus hijas Venus y Serena, quienes pronto se convertirán en dos de los tenistas más legendarios de la historia.",
+    "puntos": "9.4",
+    "trailer": "https://www.youtube.com/watch?v=z5Eb8Z6KoaU"
+   }
+ ]
