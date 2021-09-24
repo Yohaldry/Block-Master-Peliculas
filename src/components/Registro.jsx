@@ -106,7 +106,7 @@ const Registro = ({stateTaks,guardarRecargarProductos}) => {
 
                         <input
                             name="password"
-                            type="text"
+                            type="password"
                             className="form-control text-success  bg-dark mt-2"
                             autoComplete="off"
                             placeholder="Password"

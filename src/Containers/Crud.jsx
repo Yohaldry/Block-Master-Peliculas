@@ -24,10 +24,13 @@ export const Crud = ({recargarProductos}) => {
        .then(data => setDatos(data))
      }
 
+     
      const handleDelete = async (id) => {
         
         const url = `https://peliculas2021.herokuapp.com/peliculas/${id}`;
-        await axios.delete(url);
+        await axios.delete(url)
+        .then (alert('Pelicula Eliminada'));
+        
     }
 
     const [editing, setEditing] = useState(false)
@@ -51,6 +54,7 @@ export const Crud = ({recargarProductos}) => {
             descripcion: datos.descripcion,
             trailer: datos.trailer
         })
+       
     }
 
     return (

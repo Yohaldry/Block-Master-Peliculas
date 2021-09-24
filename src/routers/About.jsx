@@ -5,7 +5,6 @@ import Login from '../components/Login';
 import Registro from '../components/Registro'
 import Inicio from '../components/InicioHeader'
 import InfoPeliculas from '../components/InfoPeliculas'
-// import AppRouter from './AppRouter';
 import { Crud } from '../Containers/Crud';
 
 function About() {
@@ -19,6 +18,7 @@ function About() {
                          <InfoPeliculas />
                          </Route>
                          <Route exact path="/crudPeliculas" component={Crud} />
+                         
                  </BrowserRouter>
 
      );

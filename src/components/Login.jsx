@@ -1,28 +1,46 @@
 
 import React, {Fragment, useState, useEffect} from "react";
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
+import InicioHeader from "./InicioHeader";
 
 
 
-const Login = () => {
 
+const Login = (Autorized) => {
 
 const [ usuarios, setUsuarios ] = useState([])
 
 
+const handleInputChange = (e) => {
 
-
-
-
-
-
-const Users = usuarios.map((us) => {
-  
     
-        
+   
     
+    setUser({
+        ...user,
+        [e.target.name]: e.target.value
+    })
+}
+
+const [user, setUser] = useState({
+    username: '',
+    password: ''
 })
 
+const iniciar = () => {
+    
+    const Verificado = usuarios.find(U =>  user.username === U.username )
+   
+    if(Verificado){
+ 
+        alert('logueado')
+          
+    }else{
+
+        alert('Correo invalido')
+
+    }
+}
 
         useEffect(() => {
 	        obtenerDatos()
@@ -35,12 +53,16 @@ const obtenerDatos = async () => {
 
 }
 
+const handleSubmit = (e) => {
+
+    e.preventDefault()
+}
 
     
     return ( 
     <Fragment>
         <div className="text-center py-5">
-                <form className="form-signin" >  
+                <form className="form-signin" onSubmit={handleSubmit}>  
                 <h1 className="h4 mb-3 font-weight-normal">
                         Inicio de sesión
                     </h1>
@@ -55,7 +77,8 @@ const obtenerDatos = async () => {
                         placeholder="Email"
                         required=""
                         name="username"
-                        // onChange={handleChange}
+                        // value={username}
+                        onChange={handleInputChange}
                         
                     />
 
@@ -65,18 +88,20 @@ const obtenerDatos = async () => {
                         className="form-control mt-1"
                         placeholder="Contreña"
                         name="password"
+                        // value={password}
                         required=""
-                        // onChange={handleChange}
+                        onChange={handleInputChange}
                        
                     />
 
-                    <button
+                    <div
                         type="submit"
                         className="btn btn-primary btn-block"
-                       
+                       onClick={iniciar}
+                      
                     >
                         Login
-                    </button>
+                    </div>
 
                     <div className="">
                         <p>Login with social networks</p>
